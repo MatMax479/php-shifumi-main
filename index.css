@@ -1,0 +1,21 @@
+body {
+    background-image: url("./assets/mountains-736886_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.henny {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.text-color {
+    color: #22b678
+}
+
+.text-center {
+    text-align: center;
+}
