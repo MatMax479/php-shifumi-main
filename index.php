@@ -11,15 +11,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <section class="text-center bg-prairie">
+<body class="text-center bg-chalet">
+    <?php
+    if  (isset($_GET["choix"])) {
+        echo $_GET["choix"];
+    }
+
+    ?>
+
+
+    <section>
 
         <h1 class="henny text-color">Shifumi</h1>
+        <article>
+           <a href="choix.php?choix=pierre"> <img class ="pierre" src="assets/pierre.png" alt=""></a>
+           <a href="choix.php?choix=feuille"> <img class ="feuille" src="assets/feuille.png" alt=""></a>
+           <a href="choix.php?choix=ciseaux"> <img class ="ciseaux" src="assets/ciseaux.png" alt=""></a>
+            
+       </article>
 
-    </section>
-
-<img src="assets/images (1).jpg" alt="">
+     </section>
 
 </body>
+
 
 </html>

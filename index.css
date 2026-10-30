@@ -1,9 +1,15 @@
-body {
+.bg-chalet {
+    background-image: url("./assets/d18e0055-b065-4dda-b951-db979e4d33d1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-prairie {
     background-image: url("./assets/mountains-736886_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
 
 .henny {
     font-family: "Henny Penny", system-ui;
@@ -13,9 +19,57 @@ body {
 
 
 .text-color {
-    color: #22b678
+    color: #e4ebed
 }
 
 .text-center {
     text-align: center;
+}
+
+
+.pierre {
+    width: 200px;
+    height: 200px;
+}
+
+.pierre:hover {
+    transform: scale(1.1);
+}
+
+.feuille {
+    width: 200px;
+    height: 200px;
+}
+
+.feuille:hover {
+    transform: scale(1.1);
+}
+
+.ciseaux {
+    width: 200px;
+    height: 200px;
+}
+
+.ciseaux:hover {
+    transform: scale(1.1);
+}
+
+.chalet {
+    width: 110px;
+    height: 80px;
+    margin-left: 80%;
+    margin-top: 30px;
+}
+
+.chalet:hover {
+    width: 110px;
+    height: 80px;
+    margin-left: 80%;
+    margin-top: 30px;
+    transform: scale(1.1);
+}
+
+.random {
+    width: 200px;
+    height: 200px;
 }
